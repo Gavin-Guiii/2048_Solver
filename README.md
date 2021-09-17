@@ -36,7 +36,7 @@ Monotony heuristics is a complement to the weight heuristics so that the arrange
 
 <img width="126" alt="image" src="https://user-images.githubusercontent.com/57789409/133737883-08bf80b1-86c9-4cb1-aba4-d54887120ac3.png">
 
-_Figure 4: One good example of monotony heuristics
+_Figure 4: One good example of monotony heuristics_
 
 
 ## Final evaluation heuristics
