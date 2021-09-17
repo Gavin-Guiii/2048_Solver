@@ -30,9 +30,18 @@ The number of empty tiles is also counted and returned as part of evaluation.
 
 _Figure 3: One good example of free tile heuristics_
 
+
+## 4. Monotony heuristics
+Monotony heuristics is a complement to the weight heuristics so that the arrangement of the edges will be more monotonic. If the last row and column is a geometric sequence, it is considered a better state.
+
+<img width="126" alt="image" src="https://user-images.githubusercontent.com/57789409/133737883-08bf80b1-86c9-4cb1-aba4-d54887120ac3.png">
+
+_Figure 4: One good example of monotony heuristics
+
+
 ## Final evaluation heuristics
 
-The final evaluation heuristics is shown as follows:
+For now, after performing many tests, monotony heuristics has been temporaily abandoned, although it does help sometimes. The final evaluation heuristics is shown as follows:
 
 <img width="1065" alt="image" src="https://user-images.githubusercontent.com/57789409/133735686-53ad0827-0cdd-40f9-8ad9-530983ace749.png">
 
