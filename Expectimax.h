@@ -23,7 +23,8 @@ private:
 	// Calculate cluster heuristics
 	int CalCluster(Board);
 
-	// Calculate mono heuristics
+	// Calculate monotony heuristics
+	// However, it is abandoned in the final version
 	int CalMono(Board);
 };
 
