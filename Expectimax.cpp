@@ -106,7 +106,8 @@ int Expectimax::CalCluster(Board now)
     return p / 2;
 }
 
-// Calculate mono heuristics
+// Calculate monotony heuristics
+// However, it is abandoned in the final version
 int Expectimax::CalMono(Board now)
 {
     int m = 0;
