@@ -1,5 +1,8 @@
 # 2048_Solver
 A 2048 AI Solver based on Expectimax Algorithm. Its success rate is over 90%.
+
+Screenshots & details are available at: https://guizichen.wixsite.com/portfolio/ai-algorithm
+
 The heuristics functions used will be explained below.
 
 ## 1. Weight heuristics
